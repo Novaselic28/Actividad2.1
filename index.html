@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgreen;
+}
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color:#19e73c ;
+    color: #800011;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #010f1b;
+    color: #b64112;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #ace60d;
+}
+.aside {
+    background-color: #F5DEB3;
+    padding: 150px;
+    color: #060607;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-repeat: no-repeat;
+    background-image: url("img/PIKA.png");
+}
+
+.footer {
+    background-color: #FF6347;
+    color: #1c1c1d;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+.circle {
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+body{
+    background-image: url("img/images\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+    
+   
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Actividad 2.1</h1>
+</div>
+
+<div class="row">
+
+<div class="col-3 menu">
+  <ul>
+    <li><a href="https://koudgh.github.io/practica9/">Practica 9: Guzmán Cortés Josue Martín </a></li>
+    <li><a href="https://fonsecaivan2222.github.io/Practica9/">Practica 9:Fonseca Ramos Ivan</a></li>
+    <li><a href="https://eleazarrosas1.github.io/Practica9_pw/">Practica 9:Rosas Pérez Eleazar</a></li>
+    <li><a href="https://glennmauricio.github.io/Practica-9/">Practica 9:Bello Chacon Glenn Mauricio</a></li>
+    <li><a href="https://tblizzarl.github.io/Practic9/">Practica 9:Herrera Aviles Derek</a></li>
+    <li><a href="https://novaselic28.github.io/Practica-9/">Practica 9:Perez Rosas Haid Krist Novaselic</a></li>
+  </ul>
+</div>
+
+<div class="col-6">
+  <h1><center>Equipo 2</center></h1>
+  <h2><center>Mienbros de el Equipo</center></h2>
+  <center>
+    Guzmán Cortés  Josue Martín<br>
+    <img  class="circle" src="img/images1.jpg"  align="center" ><br>
+    Fonseca Ramos Ivan <br>
+    <img  class="circle" src="img/images2.png"  align="center" ><br>
+    Rosas Pérez Eleazar <br>
+    <img  class="circle" src="img/images3.jpg"  align="center" ><br> 
+    Bello Chacon Glenn Mauricio <br>
+    <img  class="circle" src="img/images4.jpg"  align="center" ><br>
+    Herrera Aviles Derek <br>
+    <img  class="circle" src="img/derek.jpg"  align="center" ><br>
+    Perez Rosas Haid Krist Novaselic <br>
+    <img  class="circle" src="img/images5.png"  align="center" ><br></center>
+    
+  
+
+   
+
+
+
+</div>
+
+
+
+</body>
+</html>
